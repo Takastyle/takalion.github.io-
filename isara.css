@@ -1,0 +1,1216 @@
+/* 共通クラス */
+* {
+  box-sizing: border-box;
+  list-style: none;
+  letter-spacing: 2px;
+  overflow-x: hidden;
+}
+
+.brsp {
+  display: none;
+}
+
+div {
+  display: block;
+  overflow-y: hidden;
+}
+
+h1,
+h2,
+h6,
+section {
+  overflow-y: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.8);
+  overflow-x: hidden;
+}
+
+p {
+  margin-top: 0;
+}
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* header */
+header {
+  position: fixed;
+  z-index: 10;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+}
+
+
+.header-in .title {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1170px;
+  max-width: calc(100% - 50px);
+  margin: 0 auto;
+  padding: 20px 0;
+  height: auto;
+}
+
+.title .logo {
+  margin-top: -6px;
+  display: inline-block;
+}
+
+header img {
+  width: 128px;
+}
+
+header .subtitle {
+  position: relative;
+  bottom: -16px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.headerleft {
+  display: flex;
+}
+
+.contactpc {
+  cursor: pointer;
+  color: white;
+  padding: 11px 40px;
+  background-color: #da6b64;
+  border-radius: 50px;
+  font-size: 12px;
+  padding-bottom: 1px;
+  position: relative;
+}
+
+.contactsp {
+  display: none;
+}
+
+.contactsp img {
+  display: block;
+}
+
+/* メイン */
+.main {
+  padding-top: 75px;
+  max-width: 100%;
+}
+
+.section1 {
+  background-image: url(img/main.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section1 .container {
+  height: 500px;
+  text-align: center;
+  padding: 100px 0 120px 0;
+}
+
+.mainlogo {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.section1 p {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.section1 h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* section2 */
+
+.section2 {
+  background-color: rgb(235, 185, 77);
+  color: white;
+  margin: 0;
+}
+
+.txtm {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 36px;
+  padding-bottom: 23px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.txtm code {
+  color: #c7254e;
+  background-color: #fff;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.txtm .section2contact {
+  cursor: pointer;
+  background-color: #da6b64;
+  padding: 30px 120px;
+  border-radius: 50px;
+  color: white;
+  margin: 45px auto;
+  max-width: 800px;
+}
+
+.txts {
+  font-size: 150%;
+  font-weight: bold;
+  line-height: 35px;
+  text-align: center;
+}
+
+.section2 ul {
+  display: flex;
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.section2 ul li {
+  padding-right: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  align-items: center;
+}
+
+.section2 .twitter {
+  background-color: #1b95e0;
+  padding: 1px 8px 1px 6px;
+}
+
+.section2 .good {
+  background-color: #1877F2;
+  padding: 1px 8px 1px 6px;
+  margin-left: 3px;
+}
+
+/* introduction */
+.introdiction {
+  background-image: url(img/introbottom\ \(1\).jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.yellowbracketswide {
+  margin: 0 auto;
+  position: relative;
+  width: 860px;
+  max-width: calc(100% - 40px);
+  padding: 15px 0;
+  box-sizing: border-box;
+}
+
+.yellowbracketswide h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.yellowbracketswide::before,
+.yellowbracketswide::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.yellowbracketswide::before {
+  top: 0;
+  left: 0;
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+}
+
+.yellowbracketswide::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+}
+
+.contents {
+  padding: 40px 0;
+}
+
+.contents p {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.contents b {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #ebb94d));
+}
+
+/* about */
+.about {
+  background-color: #FEF5E0;
+  text-align: center;
+  padding: 0 0 40px 0;
+  color: black;
+}
+
+
+.aboutcircle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ebb94d;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  line-height: 80px;
+  display: inline-block;
+}
+
+.circle {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.aboutbox {
+  width: 1170px;
+  max-width: calc(100% - 40px);
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #fff;
+  border: 2px solid #ebb94d;
+  border-radius: 5px;
+}
+
+.abouttitle p {
+  font-weight: 600;
+  margin: 40px 0 10px 0;
+}
+
+.box {
+  display: inline-block;
+  padding: 10px;
+}
+
+.box p {
+  font-size: 12px;
+}
+
+/* aboutsecond */
+
+.aboutsecond {
+  background-image: url(img/aboutsecondbg2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0 40px 0;
+  text-align: center;
+  color: white;
+}
+
+.aboutsecond .row {
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.aboutsecondtitle h2 {
+  margin: 20px 0 20px 0;
+  font-weight: 600;
+}
+
+.aboutsecondtitle p {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.slidebox {
+  display: inline-block;
+  width: 32%;
+  background-color: #fff;
+  padding: 30px 30px 20px;
+  border-radius: 5px;
+}
+
+.slidebox p {
+  color: black;
+  font-weight: 600;
+}
+
+.slidebox h6 {
+  background-color: #EBB94D;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 0;
+}
+
+.slidebox .txt {
+  font-size: 14px;
+  margin: 30px 0 15px;
+}
+
+/* aboutthird */
+
+.aboutthird {
+  color: white;
+  text-align: center;
+  background-color: #016EA9;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 40px 0 40px 0;
+}
+
+/* isaralearning */
+
+.isaralearning {
+  padding: 40px 0 40px 0;
+  text-align: center;
+}
+
+.isaralearning .sub {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.isaralearning h2 {
+  margin: 20px 0 35px 0;
+  font-weight: bold;
+}
+
+.isaralearning .contaienr {
+  padding: 0;
+  width: 860px;
+  max-width: calc(100% - 40px);
+  margin: 40px auto;
+}
+
+.learnbox {
+  margin: 0;
+  padding: 0;
+}
+
+.learnbox img {
+  max-width: 180px;
+  height: 180px;
+}
+
+.learnbox {
+  padding: 5px;
+}
+
+.isaralearning .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.isaralearning .sub2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* merit */
+.merit {
+  background-color: #FEF5E0;
+  padding: 40px 0 40px 0;
+  text-align: center;
+}
+
+.merit .abouttitle p {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.merit h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.merit .container {
+  margin-top: 20px;
+}
+
+.merit .row {
+  margin-top: 40px;
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.merit .meritbox {
+  padding: 0 15px 0 15px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.merit .meritbox img {
+  height: auto;
+  width: 100%;
+}
+
+
+.meritbox .yellow {
+  color: #ECB94D;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.meritbox .info {
+  margin-bottom: 8px;
+}
+
+.merit .aboutbox p {
+  font-weight: bold;
+}
+
+.aboutbox .title {
+  font-size: 28px;
+  color: #ECB94D;
+  margin-bottom: 10px;
+}
+
+.aboutbox .sub {
+  font-size: 20px;
+}
+
+.meritbox .last {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* teacher */
+.teacher {
+  padding: 40px 0 40px 0;
+  text-align: center;
+  color: white;
+  background-image: url(img/teacherbg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.teacher h2 {
+  font-size: 28px;
+  margin: 20px 0 30px 0;
+  font-weight: bold;
+}
+
+.teacher .row {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.teacherbox {
+  padding: 0 15px 0 15px;
+  width: 50%;
+}
+
+.teacherall {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+
+.teacherbox img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  position: relative;
+  bottom: -35px;
+}
+
+.detail {
+  border: 3px solid white;
+  padding: 40px;
+}
+
+/* why */
+.why {
+  padding: 40px 0 40px 0;
+  background-color: #EBB94D;
+  text-align: center;
+}
+
+.why .QA {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  color: #ebb94d;
+  margin: 0 auto;
+  border-radius: 50%;
+  line-height: 80px;
+}
+
+.why .yellowbracketswide {
+  margin: 0 auto;
+  position: relative;
+  width: 860px;
+  max-width: calc(100% - 40px);
+  box-sizing: border-box;
+}
+
+.why .yellowbracketswide h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.why.yellowbracketswide::before,
+.why.yellowbracketswide::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.why .yellowbracketswide::before {
+  top: 0;
+  left: 0;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+}
+
+.why .yellowbracketswide::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+}
+
+.triangle3 {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #ebb94d;
+  position: relative;
+  left: 47%;
+  top: -5px;
+}
+
+/* answer */
+.answer {
+  padding: 40px 0 40px 0;
+  text-align: center;
+
+}
+
+.answer .second {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+
+.answer .title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.answer .sub {
+  font-size: 16px;
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+.answer .info {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.answer .row {
+  color: gray;
+}
+
+.answer img {
+  max-width: 240px;
+  display: block;
+  margin-right: 15px;
+  border: 3px solid #ebb94d;
+  position: relative;
+  left: 15px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.answerbox {
+  display: flex;
+  padding: 20px 0 20px 0;
+  width: 100%;
+}
+
+.answer .middle {
+  max-width: 243px;
+}
+
+.answerbox .answerdetail {
+  text-align: left;
+}
+
+.answerbox .answerdetail .info {
+  padding: 15px 0 10px 0;
+  font-size: 19px;
+}
+
+/* class */
+.class {
+  padding: 40px 0 40px 0;
+  text-align: center;
+  background-image: url(img/classbg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: bold;
+}
+
+.class .title {
+  font-size: 28px;
+  margin: 20px 0 10px 0;
+}
+
+.class .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.class .classbox {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
+}
+
+.class .classlist {
+  width: 50%;
+  color: black;
+}
+
+.classlist ul {
+  max-width: 380px;
+  height: auto;
+  width: 100%;
+  border: 2px solid #016ea9;
+  font-size: 15px;
+}
+
+.classlist ul .active {
+  background-color: #016EA9;
+  padding: 15px;
+  font-size: 20px;
+}
+
+
+/* classbottom  */
+
+.classbottom {
+  background-color: #016ea9;
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.classbottom .info {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* flow */
+.flow {
+  padding: 40px 0 40px 0;
+  text-align: center;
+  color: black;
+}
+
+.flowtitle h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 20px 0 10px 0;
+}
+
+.flowimg {
+  width: 90%;
+  max-width: 100%;
+  margin: 40px auto;
+}
+
+.flow .flowbold {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.flow .flownormal {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.flowbox {
+  width: 1170px;
+  max-width: calc(100% - 40px);
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px 35px;
+  background-color: #fef5e0;
+}
+
+.flowbox .leftp {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.flowleft {
+  float: left;
+  padding: 20px;
+  width: 200px;
+}
+
+.flowright {
+  text-align: left;
+  padding-top: 10px;
+}
+
+/* flowスマホ対応 */
+#acMenu {
+  display: none;
+}
+
+#acMenu dt {
+  display: block;
+  width: 90%;
+  height: 60px;
+  line-height: 50px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin: 10px auto 0;
+  background-color: #FEF5E0;
+  text-align: left;
+  padding: 10px 10px 15px;
+  overflow-y: hidden;
+}
+
+#acMenu dd {
+  background-color: #FEF5E0;
+  width: 90%;
+  height: auto;
+  text-align: center;
+  border: none;
+  display: none;
+  margin: 0 auto 10px;
+  padding: 10px;
+}
+
+#acMenu dd p {
+  font-size: 12px;
+  text-align: left;
+}
+
+/* bangkok */
+.bangkok {
+  padding: 80px;
+  background-image: url(img/bangkokbg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.bangkokdetail {
+  width: 1170px;
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+}
+
+.bangkok h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0 20px 0;
+}
+
+.bangkok .info {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.bangkoklist {
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.bangkoklist p {
+  margin-bottom: 10px;
+}
+
+.bangkok .lastinfo {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* .special */
+.special {
+  padding: 40px 0 40px 0;
+  color: black;
+  background-color: #F7C23C;
+  text-align: center;
+  font-weight: bold;
+}
+
+.special h2 {
+  margin: 20px 0 40px 0;
+  font-weight: bold;
+}
+
+.special p {
+  margin-bottom: 10px;
+}
+
+.special span {
+  color: white;
+}
+
+.specialtitle {
+  position: relative;
+  width: 45%;
+  margin: 0 auto;
+  background-color: #F7C23C;
+  font-size: 28px;
+  bottom: -25px;
+}
+
+.specialbox {
+  margin-top: 40px;
+  padding: 40px;
+  border: 2px solid #fff;
+  padding: 40px;
+
+}
+
+.specialboxsp {
+  display: none;
+}
+
+.special .con {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.specialbox .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.tokutenn {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  padding: 0;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.tokutenn .tokutennbox {
+  padding: 15px;
+  height: 250px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.tokutennbox h2 {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #ebb94d;
+}
+
+.tokutennbox p {
+  font-size: 14px;
+}
+
+/* specialdetail */
+.specialdetail {
+  padding: 40px 0 40px 0;
+  text-align: center;
+  background-image: url(img/specialdetail.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: bold;
+}
+
+.specialdetail .yellowbracketswide::before {
+  top: 0;
+  left: 0;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+}
+
+.specialdetail .yellowbracketswide::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+}
+
+/* 共通クラス */
+.tb {
+  font-size: 28px;
+}
+
+.tm {
+  font-size: 20px;
+}
+
+.message {
+  text-align: center;
+  padding: 40px 0 40px 0;
+}
+
+.message .title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.message .sub {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.messagebox {
+  max-width: calc(100% - 40px);
+  width: 860px;
+  padding: 0;
+  margin: 40px auto;
+}
+
+.message .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.messageleft {
+  padding: 0 15px 0 15px;
+}
+
+.messagebox img {
+  max-width: 100%;
+  height: auto;
+  width: 193px;
+}
+
+.messageright {
+  text-align: left;
+  padding: 0 15px 0 15px;
+  font-size: 14px;
+}
+
+/* contact */
+.contact {
+  padding: 40px 0 40px 0;
+  text-align: center;
+  background-color: #ebb94d;
+}
+
+.contact h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.contact .sub {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact form {
+  padding-top: 40px;
+}
+
+form input {
+  max-width: 780px;
+  margin: 0 auto;
+  min-width: 70%;
+  height: 55px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+form textarea {
+  max-width: 780px;
+  margin: 0 auto;
+  min-width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+form button {
+  max-width: 780px;
+  margin: 0 auto;
+  min-width: 70%;
+  height: 55px;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  background-color: #DA6B64;
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* question */
+.question {
+  font-weight: bold;
+  padding: 40px 0;
+  text-align: center;
+  color: black;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.question h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px 0 40px 0;
+}
+
+#Menu dt {
+  display: block;
+  width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 50px;
+  text-align: center;
+  border: #666 1px solid;
+  cursor: pointer;
+  margin-top: 7px;
+  text-align: left;
+  padding-left: 5px;
+  overflow-y: hidden;
+}
+
+#Menu dd {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  border: none;
+  display: none;
+  margin: 0 auto 10px;
+  padding: 10px;
+}
+
+#Menu i {
+  color: #1579b0;
+}
+
+/* footer */
+footer {
+  padding: 40px 15px 20px 15px;
+  text-align: center;
+  color: black;
+  background-color: #ececec;
+  font-size: 10px;
+}
+
+footer span {
+  color: #91B4D2;
+}
+
+footer ul {
+  display: flex;
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+footer ul li {
+  padding-right: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  align-items: center;
+}
+
+footer .twitter {
+  background-color: #1b95e0;
+  padding: 1px 8px 1px 6px;
+}
+
+footer .good {
+  background-color: #1877F2;
+  padding: 1px 8px 1px 6px;
+  margin-left: 3px;
+}
+
+/* トップに戻る */
+
+ .pagetop {
+   display: none;
+   position: fixed;
+   bottom: 30px;
+   right: 15px;
+  
+}
+ .pagetop a {
+   display: block;
+   background-color: #ccc;
+   text-align: center;
+   color: #222;
+   font-size: 12px;
+   text-decoration: none;
+   padding: 5px 10px;
+   filter: alpha(opacity=50);
+   -moz-opacity: 0.5;
+   opacity: 0.5;
+}
+
+ .pagetop a:hover {
+   display: block;
+   background-color: #b2d1fb;
+   text-align: center;
+   color: #fff;
+   font-size: 12px;
+   text-decoration: none;
+   padding: 5px 10px;
+   filter: alpha(opacity=50);
+   -moz-opacity: 0.5;
+   opacity: 0.5;
+}

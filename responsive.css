@@ -1,0 +1,318 @@
+/* タブレット対応 */
+@media (max-width: 1190px) and (min-width: 768px) {
+  #css {
+    width: 98%;
+    margin: 0 1%;
+  }
+
+  /* header */
+  header .subtitle {
+    position: relative;
+    bottom: -20px;
+  }
+
+  /* main */
+  .section1 p {
+    font-size: 24px;
+  }
+
+  .section1 h1 {
+    font-size: 16px;
+  }
+
+  /* section2 */
+
+  .section2 p {
+    font-size: 19px;
+    letter-spacing: 0;
+  }
+
+  .section2 .section2contact {
+    padding: 25px 20px 15px 20px;
+    margin: 10px 20px;
+    margin: 25px auto 10px;
+  }
+
+  /* introdiction */
+  .introdiction h2 {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    margin: 20px 0 10px;
+  }
+
+  /* about */
+  .about h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .abouttitle p {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .aboutbox .maintitle {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  /* aboutsecond */
+
+  .aboutsecondtitle {
+    line-height: 1rem;
+  }
+
+  .aboutsecondtitle h2 {
+    font-size: 24px;
+  }
+
+  .aboutsecondtitle p {
+    font-size: 16px;
+  }
+
+  .slidebox {
+    width: 40%;
+    margin: 0 20% 20px;
+  }
+
+  /* aboutthird */
+
+  .aboutthird p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  /* isaralearning */
+  .isaralearning h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+
+  .isaralearning .sub {
+    font-size: 16px;
+  }
+
+  .learnbox {
+    padding: 0;
+  }
+
+  .isaralearning .sub2 {
+    font-size: 14px;
+  }
+
+  /* merit */
+
+  .merit .abouttitle h2 {
+    font-size: 24px;
+  }
+
+  .merit .abouttitle p {
+    font-size: 16px;
+  }
+
+  .merit .container {
+    margin-top: 0;
+  }
+
+  .meritbox {
+    margin-bottom: 20px;
+  }
+
+  .meritbox .yellow {
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .meritbox .info {
+    font-size: 14px;
+    width: 238px;
+    margin: 0 auto 8px;
+  }
+
+  .aboutbox .title {
+    font-size: 24px;
+  }
+
+  .aboutbox .sub {
+    font-size: 16px;
+  }
+
+  .aboutbox .info {
+    font-size: 14px;
+  }
+
+  .merit .last {
+    font-size: 12px;
+    letter-spacing: 0;
+    font-weight: 300;
+  }
+
+  /* teacher */
+  .teacher {
+    padding: 50px;
+  }
+
+  .teacher h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .teacher .title {
+    font-size: 14px;
+  }
+
+  .teacherbox {
+    width: 50%;
+  }
+
+  .teacherbox p {
+    font-size: 14px;
+  }
+
+  /* why */
+  .why .yellowbracketswide h2 {
+    font-size: 18px;
+    padding: 15px 30px;
+  }
+
+  /* answer */
+  .answer .title {
+    font-size: 24px;
+  }
+
+  .answer .sub {
+    font-size: 14px;
+  }
+
+  .answer .info {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+
+  .answer .contaienr {
+    width: auto;
+  }
+
+  .answer .middle {
+    max-width: 234px;
+  }
+
+  /* class */
+  .class .title {
+    font-size: 24px;
+  }
+
+  .class .sub {
+    font-size: 14px;
+  }
+
+  .class .classbox {
+    padding: 30px 10%;
+  }
+
+  .classbox .classlist .active {
+    font-size: 16px;
+  }
+
+  .classbox .classlist li {
+    font-size: 14px;
+  }
+
+  /* classbottom */
+  .classbottom .info {
+    font-size: 16px;
+  }
+
+  /* flow */
+  .flow .flowtitle h2 {
+    font-size: 24px;
+  }
+
+  .flow .flowbold {
+    font-size: 14px;
+  }
+
+  .flow .flownormal {
+    font-size: 12px;
+  }
+
+  /* bangkok */
+  .bangkok {
+    padding: 40px;
+  }
+
+  .bangkok .info {
+    font-size: 12px;
+  }
+
+  .bangkok .bangkoklist {
+    font-size: 14px;
+  }
+
+  .bangkok .lastinfo {
+    font-size: 16px;
+  }
+
+  /* special */
+  .special h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  .special p {
+    margin-bottom: 80px;
+  }
+
+  /* 特典 */
+  .special .specialtitle {
+    font-size: 24px;
+  }
+
+  .special .con {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+
+
+  /* specialdetail */
+  .specialdetail .tb {
+    font-size: 24px;
+  }
+
+  .specialdetail .tm {
+    font-size: 16px;
+  }
+
+  .specialdetail .yellowbracketswide h2 {
+    font-size: 24px;
+  }
+
+  /* message */
+  .message .title {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+
+  .message .sub {
+    font-size: 16px;
+  }
+
+  .messagebox p {
+    font-size: 14px;
+  }
+
+  /* contact */
+  .contact h2 {
+    font-size: 24px;
+  }
+
+  .contact .sub {
+    font-size: 14px;
+  }
+
+
+}
